@@ -1,5 +1,5 @@
 import styles from './page.module.css'
-import { House, Search, LibraryBig } from 'lucide-react';
+import { House, Search, LibraryBig, ArrowLeft, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import torfin from '../../public/@Getseskoo.jpg'
 import mikiro from '../../public/cbef98583b5166ab0d9c0ba2902b77a3.jpg'
@@ -34,10 +34,6 @@ export default function Home() {
                 <Image className={styles.imgplaylist} src={mikiro} alt='Torfin'  />
                 <a href="">Star boy</a>
               </div>
-              <div>
-                <Image className={styles.imgplaylist} src={gatinho} alt='Torfin'  />
-                <a href="">My top tracks playlist</a>
-              </div>
 
               <div>
                 <Image className={styles.imgplaylist} src={viajando} alt='Torfin'  />
@@ -56,7 +52,21 @@ export default function Home() {
             </nav>
           </aside>
         <main className={styles.main}>
-          Main
+          <div className={styles.botoes}>
+            <button type="button"> <ArrowLeft /></button>
+            <button type="button"> <ArrowRight /></button>
+          </div>
+
+          <h1>Good Morning</h1>
+          
+          <div className={styles.abamiusc}>
+            <div className={styles.miusc}><Image className={styles.imgmusic}  src={torfin} alt='Torfin' width={90} height={90}/> Lil Protagonist</div>
+            <div className={styles.miusc}><Image className={styles.imgmusic} src={mikiro} alt='Torfin' width={90} height={90}/> Star boy</div>
+            <div className={styles.miusc}><Image className={styles.imgmusic} src={viajando} alt='Torfin' width={90} height={90}/> Peace, after a difficult day</div>
+            <div className={styles.miusc}><Image className={styles.imgmusic} src={paz} alt='Torfin' width={90} height={90}/> Protagonist MHZIN</div>
+            <div className={styles.miusc}><Image className={styles.imgmusic} src={cristao} alt='Torfin' width={90} height={90}/> No Ceu tem suipino.</div>
+            <div className={styles.miusc}><Image className={styles.imgmusic} src={gatinho} alt='Torfin' width={90} height={90}/> 1980s Lofi</div>
+          </div>
         </main>
         
         </div>
