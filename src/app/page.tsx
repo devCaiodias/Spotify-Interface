@@ -4,7 +4,8 @@ import Mainn from '@/components/Mainn';
 import Footerr from '@/components/Footerr';
 
 
-export default function Home() {
+export default async function Home() {
+  
   return (
     <div className={styles.page}>
         <div className={styles.sidebar}>

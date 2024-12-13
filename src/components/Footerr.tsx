@@ -1,4 +1,4 @@
-import styles from '../app/page.module.css'
+import styles from '../app/styles/Footer.module.css'
 import {Play, CirclePlus, ArrowLeftToLine, ArrowRightToLine, Shuffle, Repeat, Volleyball, Mic2, ListCheck, MonitorSpeaker, Volume2 , PictureInPicture, Maximize2  } from 'lucide-react';
 import Image from 'next/image';
 import gatinho from '../../public/gatinhofavicon.jpg'

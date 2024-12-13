@@ -8,6 +8,7 @@ import cristao from '../../public/Christian Anime Pfp.jpg'
 import paz from '../../public/download (1).jpg'
 import viajando from '../../public/download.jpg'
 
+
 export default function Sidebar() {
     return (
         <aside>
@@ -24,7 +25,7 @@ export default function Sidebar() {
 
             <nav className={styles.playlist}>
               <div>
-                <Image className={styles.imgplaylist} src={torfin} alt='Torfin'  />
+                <Image className={styles.imgplaylist} src={torfin} alt='Torfin' width={80}  />
                 <a href="">Lil Protagonist</a>
               </div>
               <div>

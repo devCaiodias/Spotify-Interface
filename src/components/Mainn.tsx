@@ -1,4 +1,4 @@
-import styles from '../app/page.module.css'
+import styles from '../app/styles/Main.module.css'
 import Image from 'next/image'
 import {ArrowLeft, ArrowRight, Play} from 'lucide-react'
 

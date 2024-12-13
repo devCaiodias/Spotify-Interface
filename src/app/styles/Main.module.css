@@ -1,0 +1,99 @@
+.main {
+    flex: 1 1 0%;
+    padding: 1.5rem;
+ }
+ 
+ .main .botoes {
+     display: flex;
+     align-items: center;
+     gap: 0.75rem;
+ }
+ .main .botoes button {
+   background: none;
+   border: none;
+   color: #71717a;
+   cursor: pointer;
+ }
+ 
+ .main .botoes button:hover {
+   color: white;
+ }
+ 
+ .main h1 {
+   margin: 20px 0px;
+   font-weight: bolder;
+   font-size: 2rem;
+   line-height: 2.5rem;
+ }
+ 
+ .main h2 {
+   margin: 20px 0px;
+   font-weight: bolder;
+   font-size: 1.5rem;
+   line-height: 2.5rem;
+ }
+ 
+ .main .abamiusc {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1.2rem;
+ }
+ 
+ .main .abamiusc .miusc { 
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: white;
+   font-size: .8rem;
+   font-weight: bolder;
+   background-color: rgba(255, 255, 255, 0.082);
+   border-radius: 4px;
+   overflow: hidden;
+ }
+ 
+ .main .abamiusc .miusc:hover {
+   background-color: #413f3f9f;
+   transition: .6s;
+ }
+ 
+ .main .abamiusc .miusc .imgmusic {
+   padding: 0px 20px 0px 0px;
+ }
+ 
+ .main .abamiusc .miusc .play {
+    margin-left: auto;
+    margin-right: 15px;
+    visibility: hidden;
+ }
+ 
+ .main .abamiusc .miusc:hover .play { 
+   visibility: visible;
+   color: rgb(8, 170, 8);
+ }
+ 
+ .main .tocadaRecen {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   gap: 1rem;
+   margin-top: 1rem;
+ }
+ 
+ .main .tocadaRecen a { 
+   margin: 0 auto;
+   padding: 20px;
+   cursor: pointer;
+ }
+ 
+ .main .tocadaRecen a:hover {
+   background-color: #413f3f9f;
+ }
+ 
+ .main .tocadaRecen p {
+   font-weight: bolder;
+   padding: 3px 2px 3px 2px;
+ }
+ 
+ .main .tocadaRecen strong {
+   font-weight:bold;
+   color: #71717a;
+ }
