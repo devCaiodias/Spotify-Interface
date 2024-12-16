@@ -118,3 +118,90 @@
     border-radius: 9999px;
     margin-right: -30px;
   }
+  
+  .mobilefooter {
+    display: none;
+  }
+
+  .musicmobile {
+    display: none;
+  }
+
+@media (min-width: 375px) and (max-width: 812px){
+  .footer {
+    display: none;
+  }
+
+  .mobilefooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+  }
+
+  .mobilefooter .itensmobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .mobilefooter .itensmobile a { 
+    text-decoration: none;
+    color: white;
+  }
+
+  .musicmobile{
+    display: flex;
+    align-items: center;
+    background-color: rgba(186, 129, 239, 0.475);
+    margin: 0px 10px 4px 10px;
+  }
+
+  .musicmobile .imgmusicmobile{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+  }
+
+  .musicmobile .titlemusicmobile{ 
+    display: inline;
+    margin: 0px 0px 0px 5px;
+  }
+
+  .musicmobile div { 
+    display: flex;
+    align-items: center;
+  }
+
+  .musicmobile .titlemusicmobile p {
+    font-size: 1.2rem;
+  }
+  
+  .musicmobile .titlemusicmobile span { 
+    font-size: 1rem;
+    color: #bbbbc5;
+  }
+
+  .musicmobile .iconmobile {
+    margin-left: auto;
+  }
+  
+  .musicmobile .iconmobile a {
+    padding: 0px 9px;
+    color: white;
+    visibility: hidden;
+  }
+
+  .musicmobile:hover .iconmobile a {
+    visibility: visible;
+  }
+
+  .musicmobile .iconmobile a:hover {
+    color: rgb(8, 170, 8);
+  }
+
+}

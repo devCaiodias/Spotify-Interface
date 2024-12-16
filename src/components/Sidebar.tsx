@@ -10,6 +10,7 @@ import viajando from '../../public/download.jpg'
 
 
 export default function Sidebar() {
+
     return (
         <aside>
             <div className={styles.bolinhaIpod}>
@@ -24,10 +25,13 @@ export default function Sidebar() {
             </nav>
 
             <nav className={styles.playlist}>
+
+
               <div>
-                <Image className={styles.imgplaylist} src={torfin} alt='Torfin' width={80}  />
+                <Image className={styles.imgplaylist} src={torfin} alt='Torfin'  />
                 <a href="">Lil Protagonist</a>
               </div>
+
               <div>
                 <Image className={styles.imgplaylist} src={mikiro} alt='Torfin'  />
                 <a href="">Star boy</a>
