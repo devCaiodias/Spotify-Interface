@@ -98,7 +98,7 @@
    color: #71717a;
  }
 
- @media (min-width: 375px) and (max-width: 812px){ 
+ @media (min-width: 320px) and (max-width: 568px){
  
   .main .botoes { 
     display: none;
@@ -111,7 +111,7 @@
     }
 
     .abamiusc {
-      width: 440px;
+      width: 280px;
       white-space: nowrap;
       position: relative;
       overflow-x: initial;
@@ -140,7 +140,78 @@
 
     /* ##### */
     .tocadaRecen {
-      width: 440px;
+      width: 280px;
+      white-space: nowrap;
+      position: relative;
+      overflow-x: initial;
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
+    }
+    
+    .tocadaRecen a {
+      float: none;
+      height: 90%;
+      display: inline-block;
+      zoom: 1;
+    }
+
+    .tocadaRecen::-webkit-scrollbar {
+      height: 10px;
+      background-color: #2c2c2c;
+      border-radius: 10px;
+    }
+
+    .tocadaRecen::-webkit-scrollbar-thumb {
+      background-color: #555;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+
+ }
+
+ @media (min-width: 375px) and (max-width: 812px){ 
+ 
+  .main .botoes { 
+    display: none;
+  }
+
+  .main .abamiusc {
+    display: grid;
+    grid-template-columns: repeat(2, 17rem);
+    gap: 1.2rem;
+    }
+
+    .abamiusc {
+      width: 340px;
+      white-space: nowrap;
+      position: relative;
+      overflow-x: initial;
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
+    }
+    
+    .abamiusc a {
+      float: none;
+      height: 90%;
+      display: inline-block;
+      zoom: 1;
+    }
+
+    .abamiusc::-webkit-scrollbar {
+      height: 10px;
+      background-color: #2c2c2c;
+      border-radius: 10px;
+    }
+
+    .abamiusc::-webkit-scrollbar-thumb {
+      background-color: #555;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+
+    /* ##### */
+    .tocadaRecen {
+      width: 340px;
       white-space: nowrap;
       position: relative;
       overflow-x: initial;

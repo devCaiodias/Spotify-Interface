@@ -111,3 +111,9 @@
     display: none;
   }
 }
+
+@media (min-width: 320px) and (max-width: 568px){
+  .sidebar aside {
+    display: none;
+  }
+}
